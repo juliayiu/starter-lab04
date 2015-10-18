@@ -57,6 +57,7 @@ class Order extends Application {
 	
         $this->render();
     }
+    
     // inject order # into nested variable pair parameters
     function hokeyfix($varpair,$order) {
 	foreach($varpair as &$record)
